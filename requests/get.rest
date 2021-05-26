@@ -1,0 +1,10 @@
+GET http://localhost:5000/api/users
+###
+GET http://localhost:5000/api/users/606b76b7e3e0611c0ce58ab0
+###
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{"email":"abire@gmail.com","password":"azerty123"}
+###
+GET http://localhost:5000/api/users/logout
